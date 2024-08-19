@@ -3,19 +3,18 @@
 
 /* ----- VARIABLES ----- */
 :root{
-    --body-color: rgb(250, 250, 250);
-    --color-white: rgb(255, 255, 255);
+    --body-color: rgb(253, 232, 232);
+    --color-white: rgb(236, 184, 65);
 
     --text-color-second: rgb(68, 68, 68);
-    --text-color-third: rgb(30, 159, 171);
+    --text-color-third: rgb(249, 75, 75);
 
     --first-color: rgb(110, 87, 224);
     --first-color-hover: rgb(40, 91, 212);
 
-    --second-color: rgb(0, 201, 255);
-    --third-color: rgb(192, 166, 49);
+    --second-color: rgb(142, 216, 237);
+    --third-color: rgb(255, 255, 255);
     --first-shadow-color: rgba(0, 0, 0, 0.1);
-
 }
 
 /* ----- BASE ----- */
