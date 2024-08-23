@@ -635,3 +635,107 @@ footer{
         width: 100%;
     }
 }
+
+/* Qualification Section */
+.qualification {
+    padding: 60px 0;
+}
+
+.qualification__title {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--text-color-main);
+}
+
+.qualification__subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-color-secondary);
+    margin-bottom: 30px;
+}
+
+.qualification__container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.qualification__tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.qualification__button {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color-secondary);
+    background: var(--color-light);
+    border: 1px solid var(--color-border);
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.qualification__button:hover,
+.qualification__button.qualification__active {
+    background: var(--first-color);
+    color: var(--color-white);
+    border: 1px solid var(--first-color);
+}
+
+.qualification__icon {
+    margin-right: 8px;
+}
+
+.qualification__sections {
+    position: relative;
+}
+
+.qualification__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.qualification__data {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.qualification__title {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-color-main);
+}
+
+.qualification__subtitle {
+    font-size: 14px;
+    color: var(--text-color-secondary);
+}
+
+.qualification__calendar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--text-color-tertiary);
+}
+
+.qualification__rounder {
+    width: 12px;
+    height: 12px;
+    background: var(--first-color);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.qualification__line {
+    width: 2px;
+    height: 60px;
+    background: var(--color-border);
+    display: inline-block;
+}
